@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/behavior_controller.dir/node/behavior_controller.cpp.o"
-  "/workspace/devel/lib/f1tenth_simulator/behavior_controller.pdb"
-  "/workspace/devel/lib/f1tenth_simulator/behavior_controller"
+  "/home/developer/workspace/devel/lib/f1tenth_simulator/behavior_controller.pdb"
+  "/home/developer/workspace/devel/lib/f1tenth_simulator/behavior_controller"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/f1tenth_simulator_generate_messages_eus"
-  "/workspace/devel/share/roseus/ros/f1tenth_simulator/manifest.l"
+  "/home/developer/workspace/devel/share/roseus/ros/f1tenth_simulator/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

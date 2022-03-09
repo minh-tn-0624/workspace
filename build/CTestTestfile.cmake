@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /workspace/src
+# Source directory: /home/developer/workspace/src
 # Build directory: /workspace/build
 # 
 # This file includes the relevant testing commands required for 

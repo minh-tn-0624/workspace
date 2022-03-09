@@ -27,7 +27,7 @@ BUILD_SHARED_LIBS:BOOL=ON
 CATKIN_BLACKLIST_PACKAGES:STRING=
 
 //catkin devel space
-CATKIN_DEVEL_PREFIX:PATH=/workspace/devel
+CATKIN_DEVEL_PREFIX:PATH=/home/developer/workspace/devel
 
 //Catkin enable testing
 CATKIN_ENABLE_TESTING:BOOL=ON
@@ -125,7 +125,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/workspace/install
+CMAKE_INSTALL_PREFIX:PATH=/home/developer/workspace/install
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -258,7 +258,7 @@ PYTHON_VERSION:STRING=2
 Project_BINARY_DIR:STATIC=/workspace/build
 
 //Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/workspace/src
+Project_SOURCE_DIR:STATIC=/home/developer/workspace/src
 
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
@@ -300,7 +300,7 @@ actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 beginner_tutorials_BINARY_DIR:STATIC=/workspace/build/beginner_tutorials
 
 //Value Computed by CMake
-beginner_tutorials_SOURCE_DIR:STATIC=/workspace/src/beginner_tutorials
+beginner_tutorials_SOURCE_DIR:STATIC=/home/developer/workspace/src/beginner_tutorials
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
@@ -315,7 +315,7 @@ f1tenth_simulator_BINARY_DIR:STATIC=/workspace/build/f1tenth_simulator
 f1tenth_simulator_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-f1tenth_simulator_SOURCE_DIR:STATIC=/workspace/src/f1tenth_simulator
+f1tenth_simulator_SOURCE_DIR:STATIC=/home/developer/workspace/src/f1tenth_simulator
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake

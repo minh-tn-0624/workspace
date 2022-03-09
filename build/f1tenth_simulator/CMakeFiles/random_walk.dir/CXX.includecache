@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/developer/workspace/src/f1tenth_simulator/node/random_walk.cpp
+ros/ros.h
+-
+ackermann_msgs/AckermannDriveStamped.h
+-
+ackermann_msgs/AckermannDrive.h
+-
+nav_msgs/Odometry.h
+-
+iostream
+-
+cstdlib
+-
+
 /opt/ros/melodic/include/ackermann_msgs/AckermannDrive.h
 string
 -
@@ -864,19 +878,5 @@ string
 vector
 -
 time.h
--
-
-/workspace/src/f1tenth_simulator/node/random_walk.cpp
-ros/ros.h
--
-ackermann_msgs/AckermannDriveStamped.h
--
-ackermann_msgs/AckermannDrive.h
--
-nav_msgs/Odometry.h
--
-iostream
--
-cstdlib
 -
 

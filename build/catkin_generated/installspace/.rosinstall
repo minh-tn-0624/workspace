@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /workspace/install/setup.sh
+    local-name: /home/developer/workspace/install/setup.sh

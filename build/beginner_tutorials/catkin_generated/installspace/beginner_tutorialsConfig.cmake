@@ -67,14 +67,14 @@ set(beginner_tutorials_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(beginner_tutorials_SOURCE_PREFIX /workspace/src/beginner_tutorials)
-  set(beginner_tutorials_DEVEL_PREFIX /workspace/devel)
+  set(beginner_tutorials_SOURCE_PREFIX /home/developer/workspace/src/beginner_tutorials)
+  set(beginner_tutorials_DEVEL_PREFIX /home/developer/workspace/devel)
   set(beginner_tutorials_INSTALL_PREFIX "")
   set(beginner_tutorials_PREFIX ${beginner_tutorials_DEVEL_PREFIX})
 else()
   set(beginner_tutorials_SOURCE_PREFIX "")
   set(beginner_tutorials_DEVEL_PREFIX "")
-  set(beginner_tutorials_INSTALL_PREFIX /workspace/install)
+  set(beginner_tutorials_INSTALL_PREFIX /home/developer/workspace/install)
   set(beginner_tutorials_PREFIX ${beginner_tutorials_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /workspace/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/developer/workspace/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

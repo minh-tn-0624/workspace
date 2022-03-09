@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/src
+CMAKE_SOURCE_DIR = /home/developer/workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build
@@ -108,6 +108,6 @@ gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean:
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend:
-	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/src /usr/src/googletest/googletest /workspace/build /workspace/build/gtest/googlemock/gtest /workspace/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/developer/workspace/src /usr/src/googletest/googletest /workspace/build /workspace/build/gtest/googlemock/gtest /workspace/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 

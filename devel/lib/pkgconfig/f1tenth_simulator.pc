@@ -1,8 +1,8 @@
-prefix=/workspace/devel
+prefix=/home/developer/workspace/devel
 
 Name: f1tenth_simulator
 Description: Description of f1tenth_simulator
 Version: 0.0.1
-Cflags: -I/workspace/src/f1tenth_simulator/include
+Cflags: -I/home/developer/workspace/src/f1tenth_simulator/include
 Libs: -L${prefix}/lib -lf1tenth_simulator
 Requires: message_runtime

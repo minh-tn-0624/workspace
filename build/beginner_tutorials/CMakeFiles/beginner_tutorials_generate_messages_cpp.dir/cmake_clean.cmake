@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_cpp"
-  "/workspace/devel/include/beginner_tutorials/Scan_range.h"
+  "/home/developer/workspace/devel/include/beginner_tutorials/Scan_range.h"
 )
 
 # Per-language clean rules from dependency scanning.
