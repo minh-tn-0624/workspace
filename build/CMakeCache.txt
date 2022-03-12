@@ -309,6 +309,12 @@ catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
 //Value Computed by CMake
+f110_reactive_methods_BINARY_DIR:STATIC=/workspace/build/f110_reactive_methods
+
+//Value Computed by CMake
+f110_reactive_methods_SOURCE_DIR:STATIC=/workspace/src/f110_reactive_methods
+
+//Value Computed by CMake
 f1tenth_simulator_BINARY_DIR:STATIC=/workspace/build/f1tenth_simulator
 
 //Dependencies for target

@@ -19,12 +19,12 @@ from std_msgs.msg import Float64
 
 #PID control params
 kp = 2
-kd = 0.0
+kd = 0
 ki = 0.00002
 
 
 # disired params
-VELOCITY = 1.5
+VELOCITY = 4
 DESIRED_DISTANCE_RIGHT = 1.0
 
 #system params
@@ -63,7 +63,7 @@ class WallFollow():
         total_cover_angle = max_angle-min_angle
         step_scan = total_cover_angle/total_beams
 
-        theta = pi/18 #10 degree
+        theta = pi/6 #30 degree
 
         self.a = data.ranges[int(total_beams/2 - 1.57/step_scan + theta/step_scan)]
         self.b = data.ranges[int(total_beams/2 - 1.57/step_scan)] #right of car
@@ -83,7 +83,7 @@ class WallFollow():
         total_cover_angle = max_angle-min_angle
         step_scan = total_cover_angle/total_beams
 
-        theta = pi/18 #10 degree
+        theta = pi/6 #30 degree
 
         self.a = data.ranges[int(total_beams/2 + 1.57/step_scan-theta/step_scan)]
         self.b = data.ranges[int(total_beams/2 + 1.57/step_scan)] #left of car
@@ -142,7 +142,7 @@ class WallFollow():
         D_left = WallFollow.leftRange(self, data)
         print ("distance to left wall = " + str(D_left))
         # print ("middle = " + str((D_right+D_left)/2))
-        DESIRED_DISTANCE_RIGHT = (D_right+D_left)/1.5
+        DESIRED_DISTANCE_RIGHT = (D_right+D_left)/2
         self.current_error = DESIRED_DISTANCE_RIGHT - D_right
     
         # self.pid_control(current_error, VELOCITY) 

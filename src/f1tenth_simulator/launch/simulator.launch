@@ -42,7 +42,7 @@
   	 </node>    -->
 
   <!-- my wall follow node launch -->   
-  <node pkg="beginner_tutorials" name="wallfollow_node" type="tienanh_wallfollow.py" /> 
+  <node pkg="beginner_tutorials" name="wallfollow_node" type="wall_follow.py" /> 
   
 
   <!-- Launch RVIZ -->
