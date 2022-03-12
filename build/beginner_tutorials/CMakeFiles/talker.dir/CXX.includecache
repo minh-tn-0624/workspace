@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/developer/workspace/src/beginner_tutorials/src/talker.cpp
-ros/ros.h
-/home/developer/workspace/src/beginner_tutorials/src/ros/ros.h
-std_msgs/String.h
-/home/developer/workspace/src/beginner_tutorials/src/std_msgs/String.h
-sstream
--
-
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
@@ -690,5 +682,13 @@ string
 vector
 -
 time.h
+-
+
+/workspace/src/beginner_tutorials/src/talker.cpp
+ros/ros.h
+/workspace/src/beginner_tutorials/src/ros/ros.h
+std_msgs/String.h
+/workspace/src/beginner_tutorials/src/std_msgs/String.h
+sstream
 -
 

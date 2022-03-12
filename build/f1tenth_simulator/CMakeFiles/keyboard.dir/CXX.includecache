@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/developer/workspace/src/f1tenth_simulator/node/keyboard.cpp
-ros/ros.h
--
-std_msgs/String.h
--
-termios.h
--
-stdio.h
--
-signal.h
--
-iostream
--
-
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
@@ -696,5 +682,19 @@ string
 vector
 -
 time.h
+-
+
+/workspace/src/f1tenth_simulator/node/keyboard.cpp
+ros/ros.h
+-
+std_msgs/String.h
+-
+termios.h
+-
+stdio.h
+-
+signal.h
+-
+iostream
 -
 

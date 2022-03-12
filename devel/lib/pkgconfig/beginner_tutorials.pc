@@ -1,8 +1,8 @@
-prefix=/home/developer/workspace/devel
+prefix=/workspace/devel
 
 Name: beginner_tutorials
 Description: Description of beginner_tutorials
 Version: 0.0.0
-Cflags: -I/home/developer/workspace/devel/include
+Cflags: -I/workspace/devel/include
 Libs: -L${prefix}/lib 
 Requires: roscpp rospy std_msgs message_runtime

@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/developer/workspace/src/beginner_tutorials
+# Source directory: /workspace/src/beginner_tutorials
 # Build directory: /workspace/build/beginner_tutorials
 # 
 # This file includes the relevant testing commands required for 

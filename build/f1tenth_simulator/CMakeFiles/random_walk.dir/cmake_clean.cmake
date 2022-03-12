@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/random_walk.dir/node/random_walk.cpp.o"
-  "/home/developer/workspace/devel/lib/f1tenth_simulator/random_walk.pdb"
-  "/home/developer/workspace/devel/lib/f1tenth_simulator/random_walk"
+  "/workspace/devel/lib/f1tenth_simulator/random_walk.pdb"
+  "/workspace/devel/lib/f1tenth_simulator/random_walk"
 )
 
 # Per-language clean rules from dependency scanning.

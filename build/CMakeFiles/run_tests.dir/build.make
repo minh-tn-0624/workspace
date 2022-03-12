@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/developer/workspace/src
+CMAKE_SOURCE_DIR = /workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/developer/workspace/src /home/developer/workspace/src /workspace/build /workspace/build /workspace/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/src /workspace/src /workspace/build /workspace/build /workspace/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

@@ -1,2 +1,2 @@
 beginner_tutorials:f1tenth_simulator
--DCATKIN_DEVEL_PREFIX=/home/developer/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/developer/workspace/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/workspace/devel -DCMAKE_INSTALL_PREFIX=/workspace/install -G Unix Makefiles

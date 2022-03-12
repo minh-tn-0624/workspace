@@ -1,4 +1,4 @@
-prefix=/home/developer/workspace/install
+prefix=/workspace/install
 
 Name: beginner_tutorials
 Description: Description of beginner_tutorials

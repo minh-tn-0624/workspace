@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mux.dir/node/mux.cpp.o"
-  "/home/developer/workspace/devel/lib/f1tenth_simulator/mux.pdb"
-  "/home/developer/workspace/devel/lib/f1tenth_simulator/mux"
+  "/workspace/devel/lib/f1tenth_simulator/mux.pdb"
+  "/workspace/devel/lib/f1tenth_simulator/mux"
 )
 
 # Per-language clean rules from dependency scanning.

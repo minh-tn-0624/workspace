@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_lisp"
-  "/home/developer/workspace/devel/share/common-lisp/ros/beginner_tutorials/msg/Scan_range.lisp"
+  "/workspace/devel/share/common-lisp/ros/beginner_tutorials/msg/Scan_range.lisp"
 )
 
 # Per-language clean rules from dependency scanning.
