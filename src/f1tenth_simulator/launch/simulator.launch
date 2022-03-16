@@ -44,6 +44,8 @@
   <!-- my wall follow node launch -->   
   <node pkg="beginner_tutorials" name="wallfollow_node" type="wall_follow.py" /> 
   
+  <!-- my gap follow node launch   
+  <node pkg="beginner_tutorials" name="gapfollow_node" type="gap_follow.py" />  -->
 
   <!-- Launch RVIZ -->
     <node pkg="rviz" type="rviz" name="rviz" args="-d $(find f1tenth_simulator)/launch/simulator.rviz" output="screen"/>
