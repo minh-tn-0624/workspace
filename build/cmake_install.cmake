@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/workspace/build/gtest/cmake_install.cmake")
   include("/workspace/build/beginner_tutorials/cmake_install.cmake")
+  include("/workspace/build/scan_matching_pkg/cmake_install.cmake")
   include("/workspace/build/f1tenth_simulator/cmake_install.cmake")
 
 endif()

@@ -1,0 +1,8 @@
+prefix=/workspace/devel
+
+Name: scan_matching_pkg
+Description: Description of scan_matching_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: nav_msgs roscpp rospy std_msgs
