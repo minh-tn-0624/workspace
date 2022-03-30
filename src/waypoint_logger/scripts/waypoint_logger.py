@@ -10,7 +10,7 @@ from tf.transformations import euler_from_quaternion
 from nav_msgs.msg import Odometry
 
 home = expanduser('~')
-file = open(strftime(home+'/rcws/logs/wp-%Y-%m-%d-%H-%M-%S',gmtime())+'.csv', 'w')
+file = open(strftime(r'/workspace/src/waypoint_logger/scripts',gmtime())+'.csv', 'w')
 
 def save_waypoint(data):
     quaternion = np.array([data.pose.pose.orientation.x, 
@@ -36,7 +36,7 @@ def shutdown():
  
 def listener():
     rospy.init_node('waypoints_logger', anonymous=True)
-    rospy.Subscriber('pf/pose/odom', Odometry, save_waypoint)
+    rospy.Subscriber('/odom', Odometry, save_waypoint)
     rospy.spin()
 
 if __name__ == '__main__':
