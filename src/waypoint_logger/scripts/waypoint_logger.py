@@ -32,7 +32,7 @@ def save_waypoint(data):
 
 def shutdown():
     file.close()
-    print('Goodbye')
+    print('Pai Pai :3')
  
 def listener():
     rospy.init_node('waypoints_logger', anonymous=True)
