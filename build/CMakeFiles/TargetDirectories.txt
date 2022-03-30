@@ -149,3 +149,10 @@
 /workspace/build/f1tenth_simulator/CMakeFiles/install/local.dir
 /workspace/build/f1tenth_simulator/CMakeFiles/f1tenth_simulator_genlisp.dir
 /workspace/build/f1tenth_simulator/CMakeFiles/f1tenth_simulator_generate_messages_eus.dir
+/workspace/build/waypoint_logger/CMakeFiles/install/strip.dir
+/workspace/build/waypoint_logger/CMakeFiles/edit_cache.dir
+/workspace/build/waypoint_logger/CMakeFiles/list_install_components.dir
+/workspace/build/waypoint_logger/CMakeFiles/test.dir
+/workspace/build/waypoint_logger/CMakeFiles/install/local.dir
+/workspace/build/waypoint_logger/CMakeFiles/rebuild_cache.dir
+/workspace/build/waypoint_logger/CMakeFiles/install.dir

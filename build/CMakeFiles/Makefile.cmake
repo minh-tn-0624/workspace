@@ -221,6 +221,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "f1tenth_simulator/cmake/f1tenth_simulator-genmsg.cmake"
   "scan_matching_pkg/catkin_generated/ordered_paths.cmake"
   "scan_matching_pkg/catkin_generated/package.cmake"
+  "waypoint_logger/catkin_generated/ordered_paths.cmake"
+  "waypoint_logger/catkin_generated/package.cmake"
   "/workspace/devel/share/beginner_tutorials/cmake/beginner_tutorials-msg-paths.cmake"
   "/workspace/devel/share/f1tenth_simulator/cmake/f1tenth_simulator-msg-paths.cmake"
   "/workspace/src/CMakeLists.txt"
@@ -230,6 +232,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/workspace/src/f1tenth_simulator/package.xml"
   "/workspace/src/scan_matching_pkg/CMakeLists.txt"
   "/workspace/src/scan_matching_pkg/package.xml"
+  "/workspace/src/waypoint_logger/CMakeLists.txt"
+  "/workspace/src/waypoint_logger/package.xml"
   )
 
 # The corresponding makefile is:
@@ -273,6 +277,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "beginner_tutorials/CMakeFiles/CMakeDirectoryInformation.cmake"
   "scan_matching_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "f1tenth_simulator/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "waypoint_logger/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

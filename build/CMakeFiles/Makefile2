@@ -3616,6 +3616,24 @@ clean: f1tenth_simulator/CMakeFiles/f1tenth_simulator_generate_messages_eus.dir/
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory waypoint_logger
+
+# Convenience name for "all" pass in the directory.
+waypoint_logger/all:
+
+.PHONY : waypoint_logger/all
+
+# Convenience name for "clean" pass in the directory.
+waypoint_logger/clean:
+
+.PHONY : waypoint_logger/clean
+
+# Convenience name for "preinstall" pass in the directory.
+waypoint_logger/preinstall:
+
+.PHONY : waypoint_logger/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

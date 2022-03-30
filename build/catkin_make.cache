@@ -1,2 +1,2 @@
-beginner_tutorials:f1tenth_simulator:scan_matching_pkg
+beginner_tutorials:f1tenth_simulator:scan_matching_pkg:waypoint_logger
 -DCATKIN_DEVEL_PREFIX=/workspace/devel -DCMAKE_INSTALL_PREFIX=/workspace/install -G Unix Makefiles
