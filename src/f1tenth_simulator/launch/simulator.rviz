@@ -231,7 +231,7 @@ Visualization Manager:
       Marker Topic: /scan_match_debug
       Name: Marker
       Namespaces:
-        {}
+        scan_match: true
       Queue Size: 100
       Value: true
   Enabled: true
@@ -300,5 +300,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1512
-  X: 0
-  Y: 0
+  X: 22
+  Y: 10
