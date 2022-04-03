@@ -133,6 +133,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/workspace/build/gtest/cmake_install.cmake")
   include("/workspace/build/beginner_tutorials/cmake_install.cmake")
   include("/workspace/build/scan_matching_pkg/cmake_install.cmake")
+  include("/workspace/build/pure_pursuit_pkg/cmake_install.cmake")
   include("/workspace/build/f1tenth_simulator/cmake_install.cmake")
   include("/workspace/build/waypoint_logger/cmake_install.cmake")
 

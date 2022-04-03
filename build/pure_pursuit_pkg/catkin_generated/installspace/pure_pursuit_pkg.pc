@@ -1,0 +1,8 @@
+prefix=/workspace/install
+
+Name: pure_pursuit_pkg
+Description: Description of pure_pursuit_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs geometry_msgs nav_msgs sensor_msgs visualization_msgs tf2_ros

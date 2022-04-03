@@ -7,5 +7,6 @@
 subdirs("gtest")
 subdirs("beginner_tutorials")
 subdirs("scan_matching_pkg")
+subdirs("pure_pursuit_pkg")
 subdirs("f1tenth_simulator")
 subdirs("waypoint_logger")

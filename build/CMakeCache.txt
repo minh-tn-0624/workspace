@@ -309,6 +309,12 @@ catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
 //Value Computed by CMake
+f110_pure_pursuit_BINARY_DIR:STATIC=/workspace/build/f110_pure_pursuit
+
+//Value Computed by CMake
+f110_pure_pursuit_SOURCE_DIR:STATIC=/workspace/src/f110_pure_pursuit
+
+//Value Computed by CMake
 f110_reactive_methods_BINARY_DIR:STATIC=/workspace/build/f110_reactive_methods
 
 //Value Computed by CMake
@@ -410,6 +416,12 @@ message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
+
+//Value Computed by CMake
+pure_pursuit_pkg_BINARY_DIR:STATIC=/workspace/build/pure_pursuit_pkg
+
+//Value Computed by CMake
+pure_pursuit_pkg_SOURCE_DIR:STATIC=/workspace/src/pure_pursuit_pkg
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -593,7 +605,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
