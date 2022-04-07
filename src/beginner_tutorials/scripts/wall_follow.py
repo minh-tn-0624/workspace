@@ -19,12 +19,12 @@ from std_msgs.msg import Float64
 
 #PID control params
 kp = 2
-kd = 0
+kd = 0.0
 ki = 0.00002
 
 
 # disired params
-VELOCITY = 4
+VELOCITY = 2.0
 DESIRED_DISTANCE_RIGHT = 1.0
 
 #system params
@@ -70,7 +70,7 @@ class WallFollow():
         # print ("b_right = " + str(self.b) )
 
         anpha = atan2((self.a*cos(theta)-self.b),(self.a*sin(theta)))
-        print ("anpha_right = " +str(anpha))
+        # print ("anpha_right = " +str(anpha))
         D_right = self.b*cos(anpha)
         
         return D_right
@@ -90,7 +90,7 @@ class WallFollow():
         # print ("b_left = " + str(self.b) )
 
         anpha = atan2((self.a*cos(theta)-self.b),(self.a*sin(theta)))
-        print ("anpha_left = " +str(anpha))
+        # print ("anpha_left = " +str(anpha))
         D_left = self.b*cos(anpha)
         
         return D_left  
@@ -122,7 +122,7 @@ class WallFollow():
         drive_msg.drive.steering_angle = self.steering_angle
         drive_msg.drive.speed = velocity
         self.drive_pub.publish(drive_msg)
-        print ("publish is called")    
+        # print ("publish is called")    
 
 
     def lidar_callback(self, data):  
@@ -137,10 +137,10 @@ class WallFollow():
         
             
         D_right = WallFollow.rightRange(self, data)
-        print ("distance to right wall = " + str(D_right))
+        # print ("distance to right wall = " + str(D_right))
 
         D_left = WallFollow.leftRange(self, data)
-        print ("distance to left wall = " + str(D_left))
+        # print ("distance to left wall = " + str(D_left))
         # print ("middle = " + str((D_right+D_left)/2))
         DESIRED_DISTANCE_RIGHT = (D_right+D_left)/2
         self.current_error = DESIRED_DISTANCE_RIGHT - D_right
@@ -156,7 +156,7 @@ class WallFollow():
         #     self.rate.sleep()
 
     def control_with_rate(self, event):
-        VELOCITY = 1.5 - min(1.0,self.current_error*5,self.steering_angle*1.2)
+        VELOCITY = 1.0 - min(0.5,self.current_error*5,self.steering_angle*1.2)
         self.pid_control(self.current_error, VELOCITY) 
 
 

@@ -329,6 +329,12 @@ f1tenth_simulator_LIB_DEPENDS:STATIC=
 //Value Computed by CMake
 f1tenth_simulator_SOURCE_DIR:STATIC=/workspace/src/f1tenth_simulator
 
+//Value Computed by CMake
+gap_follow_pkg_BINARY_DIR:STATIC=/workspace/build/gap_follow_pkg
+
+//Value Computed by CMake
+gap_follow_pkg_SOURCE_DIR:STATIC=/workspace/src/gap_follow_pkg
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
 

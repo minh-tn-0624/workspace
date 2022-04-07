@@ -108,14 +108,14 @@ public:
         way_point_marker.color.b = 1.0;
         way_point_viz_pub_.publish(way_point_marker);
 
-        std::cout << "get x " << way_points_data_list_[5].x << std::endl;
+        std::cout << " x " << way_points_data_list_[5].x << std::endl;
 
         const int increment = int(way_points_data_list_.size()/50);
         for(int i=0, j=0; i<way_points_data_list_.size(); i=i+increment, j++)
         {
             add_way_point_visualization(way_points_data_list_[i], "map", 0.0, 0.0, 1.0, 0.5);
             // add_way_point_visualization(way_points_data_list_[i],"map",1.0,1.0,0.5,0.5,0.1,0.1,0.1);
-            std::cout << "get x "<< i << " " << way_points_data_list_[i].x << std::endl;
+            std::cout << " x "<< i << " " << way_points_data_list_[i].x << std::endl;
         }
     }
 
