@@ -1,0 +1,8 @@
+prefix=/workspace/devel
+
+Name: f110_rrt_star
+Description: Description of f110_rrt_star
+Version: 0.0.0
+Cflags: -I/workspace/src/f110_rrt_star/include
+Libs: -L${prefix}/lib -lf110_rrt
+Requires: ackermann_msgs geometry_msgs roscpp rospy sensor_msgs std_msgs tf
