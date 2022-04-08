@@ -24,7 +24,7 @@ ki = 0.00002
 
 
 # disired params
-VELOCITY = 2.0
+VELOCITY = 0.5
 DESIRED_DISTANCE_RIGHT = 1.0
 
 #system params

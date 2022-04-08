@@ -1,0 +1,8 @@
+prefix=/workspace/install
+
+Name: rrt_pkg
+Description: Description of rrt_pkg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrrt_pkg
+Requires: ackermann_msgs geometry_msgs roscpp rospy sensor_msgs std_msgs tf

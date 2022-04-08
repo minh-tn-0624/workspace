@@ -472,6 +472,12 @@ rrt_BINARY_DIR:STATIC=/workspace/build/f1-10_RRT_planning
 rrt_SOURCE_DIR:STATIC=/workspace/src/f1-10_RRT_planning
 
 //Value Computed by CMake
+rrt_pkg_BINARY_DIR:STATIC=/workspace/build/rrt_pkg
+
+//Value Computed by CMake
+rrt_pkg_SOURCE_DIR:STATIC=/workspace/src/rrt_pkg
+
+//Value Computed by CMake
 scan_matching_pkg_BINARY_DIR:STATIC=/workspace/build/scan_matching_pkg
 
 //Value Computed by CMake

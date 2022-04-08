@@ -242,6 +242,14 @@ Visualization Manager:
         branch: true
       Queue Size: 100
       Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /goal
+      Name: Marker
+      Namespaces:
+        goal: true
+      Queue Size: 100
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -308,5 +316,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1402
-  X: 52
-  Y: 2
+  X: 0
+  Y: 0
